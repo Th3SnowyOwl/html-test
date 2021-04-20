@@ -73,7 +73,7 @@
 	
 	<assets path="assets/music"    library="songs"    exclude="*.ogg" if="web"/>
 	<assets path="assets/music"    library="songs"    exclude="*.mp3" unless="web"/>
-	<!--<assets path="assets/shared"   library="shared"   exclude="*.ogg" if="web"/>
+	<assets path="assets/shared"   library="shared"   exclude="*.ogg" if="web"/>
 	<assets path="assets/shared"   library="shared"   exclude="*.mp3" unless="web"/>
 	<assets path="assets/tutorial" library="tutorial" exclude="*.ogg" if="web"/>
 	<assets path="assets/tutorial" library="tutorial" exclude="*.mp3" unless="web"/>
@@ -88,7 +88,7 @@
 	<assets path="assets/week5"    library="week5"    exclude="*.ogg" if="web"/>
 	<assets path="assets/week5"    library="week5"    exclude="*.mp3" unless="web"/>
 	<assets path="assets/week6"    library="week6"    exclude="*.ogg" if="web"/>
-	<assets path="assets/week6"    library="week6"    exclude="*.mp3" unless="web"/>-->
+	<assets path="assets/week6"    library="week6"    exclude="*.mp3" unless="web"/>
 	
 	<assets path='mods' rename='mods' embed='false'/>
 	<assets path='readme.txt' rename='do NOT readme.txt' />
