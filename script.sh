@@ -5,10 +5,10 @@ sudo apt update && sudo apt upgrade -y
 sudo add-apt-repository ppa:haxe/releases -y && sudo apt install haxe -y && mkdir ~/haxelib && haxelib setup ~/haxelib
 
 #Haxeflixel
-haxelib setup && haxelib install lime && haxelib install flixel && haxelib install openfl && haxelib run lime setup -y
+haxelib install lime && haxelib install flixel && haxelib install openfl && haxelib run lime setup
 
 #Setup
-haxelib install flixel && haxelib install flixel-addons && haxelib install flixel-ui && haxelib install hscript && haxelib install newgrounds
+haxelib install flixel-addons && haxelib install flixel-ui && haxelib install hscript && haxelib install newgrounds
 
 #PolyMod & Discord RPC
 haxelib git polymod https://github.com/larsiusprime/polymod.git && haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
